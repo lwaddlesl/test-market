@@ -6,8 +6,7 @@ export const state = () => ({
     price: "",
     checkedBrend: [],
     brandCount: 0,
-    minPrice: 0,
-    maxPrice: 100000,
+    prices: [0, 100_000],
 })
 export const mutations = {
     getBrand(state, checkedBrend) {
@@ -16,11 +15,8 @@ export const mutations = {
     getPrice(state, price) {
         state.price = price
     },
-    getMinPrice(state, minPrice) {
-        state.minPrice = minPrice
-    },
-    getMaxPrice(state, maxPrice) {
-        state.maxPrice = maxPrice
+    getPrices(state, prices) {
+        state.Prices = prices
     },
     getGender(state, gender) {
         state.gender = gender

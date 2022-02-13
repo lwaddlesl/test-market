@@ -14,7 +14,9 @@
         <v-form @submit.prevent="priceHandler">
           <v-range-slider
             color="#84A2FC"
-            hide-details
+            track-color="#1d1d201a"
+            thumb-color="#84A2FC"
+            v-model="prices"
             max="100000"
             min="0"
           ></v-range-slider>
@@ -22,13 +24,13 @@
             <v-text-field
               class="mr-2"
               solo
-              v-model="minPrice"
+              v-model="prices[0]"
               label="От"
               outlined
             ></v-text-field>
             <v-text-field
               solo
-              v-model="maxPrice"
+              v-model="prices[1]"
               label="До"
               outlined
             ></v-text-field>
@@ -55,16 +57,14 @@ export default {
   data() {
     return {
       price: "",
-      minPrice: 0,
-      maxPrice: 100000,
+      prices: [0, 100_000],
       priceMenu: false,
     };
   },
   methods: {
     priceHandler() {
       this.$store.commit("getPrice", this.price);
-      this.$store.commit("getMinPrice", this.minPrice);
-      this.$store.commit("getMaxPrice", this.maxPrice);
+      this.$store.commit("getPrices", this.Prices);
       this.priceMenu = false;
     },
   },
