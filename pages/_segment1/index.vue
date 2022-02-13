@@ -8,7 +8,7 @@
       <LeftMenu class="mt-12" />
       <v-col>
         <Filters />
-        <SelectedFilters />
+        <ActiveFilters />
         <Sneakers />
       </v-col>
     </v-row>
