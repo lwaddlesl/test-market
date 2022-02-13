@@ -37,13 +37,13 @@
           </div>
           <v-radio-group v-model="price">
             <v-radio value="sale" label="Товары со скидкой"></v-radio>
-            <hr class="mb-4" />
+            <hr />
             <v-radio value="-3000" label="До 3000 руб."></v-radio>
-            <hr class="mb-4" />
+            <hr />
             <v-radio value="-5000" label="До 5000 руб."></v-radio>
-            <hr class="mb-4" />
+            <hr />
             <v-radio value="-9000" label="До 9000 руб."></v-radio>
-            <hr class="mb-4" />
+            <hr />
             <v-radio value="-15000" label="До 15000 руб."></v-radio>
           </v-radio-group>
           <v-btn type="submit" width="280" height="50" dark>Пременить</v-btn>

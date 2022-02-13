@@ -1,6 +1,6 @@
 <template>
   <div class="mb-8 mt-12 d-flex">
-    <FilterPopular />
+    <FilterSorting />
     <FilterBrand />
     <FilterModel />
     <FilterPrice />
@@ -39,5 +39,6 @@
 }
 hr {
   background: rgba(29, 29, 32, 0.1);
+  margin-bottom: 8px;
 }
 </style>

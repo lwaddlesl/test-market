@@ -5,8 +5,12 @@ export const state = () => ({
     gender: "any",
     price: "",
     checkedBrend: [],
+    size: [],
+    model: [],
     brandCount: 0,
     prices: [0, 100_000],
+    sortValue: "popular",
+
 })
 export const mutations = {
     getBrand(state, checkedBrend) {
@@ -20,5 +24,14 @@ export const mutations = {
     },
     getGender(state, gender) {
         state.gender = gender
+    },
+    getSortValue(state, sortValue) {
+        state.sortValue = sortValue
+    },
+    getSize(state, size) {
+        state.size = size
+    },
+    getModel(state, model) {
+        state.model = model
     },
 }
