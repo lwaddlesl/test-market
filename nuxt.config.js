@@ -5,7 +5,19 @@ export default {
   ssr: false,
   target: 'static',
   router: {
-    base: '/test-market/',
+    base: '/test-market/catalog',
+    extendRoutes(routes, resolve) {
+      routes.push({
+        path: "/:segment1?/:segment2",
+        component: resolve(__dirname, "pages/_segment1/index"),
+        name: "segment1-segment2"
+      }, {
+        path: "/:segment1?/:segment2/:segment3",
+        component: resolve(__dirname, "pages/_segment1/index"),
+        name: "segment1-segment2-segment3"
+      }
+      )
+    },
   },
 
   // Global page headers: https://go.nuxtjs.dev/config-head
