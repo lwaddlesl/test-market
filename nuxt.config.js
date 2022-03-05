@@ -5,7 +5,7 @@ export default {
   ssr: false,
   target: 'static',
   router: {
-    base: '/test-market/catalog',
+    base: '/test-market/',
     extendRoutes(routes, resolve) {
       routes.push({
         path: "/:segment1?",
