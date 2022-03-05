@@ -1,8 +1,7 @@
 <template>
   <div class="active-filter mb-7">
-    <ActiveFilter name="Очитить Все" />
-    <ActiveFilter name="Новинки" />
-    <ActiveFilter name="Кроссовки" />
-    <ActiveFilter name="Nike" />
+    <span v-for="(name, i) in $store.state.activeFilterNames" :key="i">
+      <ActiveFilter :name="name" />
+    </span>
   </div>
 </template>

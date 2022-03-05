@@ -1,15 +1,19 @@
 <template>
   <v-col class="nav" cols="3">
     <div class="collection">Подборки Meet-market</div>
-    <div><a href="">Все товары</a></div>
-    <div><a href="">Популярные</a></div>
-    <div><a class="express-delivery" href="">Экспресс-доставка</a></div>
-    <div><a href="">Новинки</a></div>
-    <div><a href="">Black&White</a></div>
-    <div><a href="">Зима</a></div>
-    <div><a href="">Подборка Light</a></div>
-    <div><a href=""> Подборка Multicolor</a></div>
-    <div><a href="">Подборка Dark</a></div>
+    <div><NuxtLink to="/all-goods">Все товары</NuxtLink></div>
+    <div><NuxtLink to="/popular">Популярные</NuxtLink></div>
+    <div>
+      <NuxtLink to="/express-delivery" class="express-delivery">
+        Экспресс-доставка
+      </NuxtLink>
+    </div>
+    <div><NuxtLink to="/new">Новинки</NuxtLink></div>
+    <div><NuxtLink to="/black-and-white">Black&White</NuxtLink></div>
+    <div><NuxtLink to="/winter">Зима</NuxtLink></div>
+    <div><NuxtLink to="/light">Подборка Light</NuxtLink></div>
+    <div><NuxtLink to="/multicolor"> Подборка Multicolor</NuxtLink></div>
+    <div><NuxtLink to="/dark">Подборка Dark</NuxtLink></div>
   </v-col>
 </template>
 <style lang="scss" scoped>

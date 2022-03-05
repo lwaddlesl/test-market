@@ -10,6 +10,7 @@ export const state = () => ({
     brandCount: 0,
     prices: [0, 100_000],
     sortValue: "popular",
+    activeFilterNames: ["Очитить Все", "Новинки", "Кроссовки", "Nike"]
 
 })
 export const mutations = {
