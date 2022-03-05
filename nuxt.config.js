@@ -8,12 +8,12 @@ export default {
     base: '/test-market/catalog',
     extendRoutes(routes, resolve) {
       routes.push({
-        path: "/:segment1?/:segment2",
-        component: resolve(__dirname, "pages/_segment1/index"),
+        path: "/:segment1?",
+        component: resolve(__dirname, "pages/index"),
         name: "segment1-segment2"
       }, {
-        path: "/:segment1?/:segment2/:segment3",
-        component: resolve(__dirname, "pages/_segment1/index"),
+        path: "/:segment1?/:segment2/",
+        component: resolve(__dirname, "pages/index"),
         name: "segment1-segment2-segment3"
       }
       )
