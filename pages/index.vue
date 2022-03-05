@@ -5,7 +5,7 @@
       КРОССОВКИ: НОВИНКИ <span class="product-count">594 товара </span>
     </div>
     <v-row>
-      <LeftMenu class="mt-12" />
+      <LeftMenu class="left-menu mt-12" />
       <v-col>
         <Filters />
         <ActiveFilters />
@@ -34,6 +34,11 @@
   font-size: 16px;
   line-height: 150%;
   color: rgba(29, 29, 32, 0.3);
+}
+@media screen and (max-width: 910px) {
+  .left-menu {
+    display: none;
+  }
 }
 </style>
 

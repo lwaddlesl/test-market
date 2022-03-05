@@ -3,8 +3,10 @@
     <v-col
       v-for="s in $store.state.sneakers.sneakers"
       :key="s.id"
-      cols="4"
+      cols="12"
       lg="3"
+      md="4"
+      sm="6"
     >
       <v-card min-height="325">
         <div class="heart">

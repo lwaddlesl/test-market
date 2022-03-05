@@ -23,3 +23,15 @@
     </v-app-bar>
   </div>
 </template>
+<style lang="scss" scoped>
+@media screen and (max-width: 625px) {
+  button {
+    display: none;
+  }
+}
+@media screen and (max-width: 476px) {
+  div {
+    display: none;
+  }
+}
+</style>

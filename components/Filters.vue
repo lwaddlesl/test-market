@@ -1,5 +1,5 @@
 <template>
-  <div class="mb-8 mt-12 d-flex">
+  <div class="mb-8 mt-12 display">
     <FilterSorting />
     <FilterBrand />
     <FilterModel />
@@ -11,6 +11,7 @@
 
 <style lang="scss">
 .filter {
+  text-align: center;
   width: 139px;
   height: 50px;
   font-size: 14px;
@@ -24,6 +25,9 @@
     box-shadow: 0px 2px 4px 2px rgba(34, 60, 80, 0.2);
   }
 }
+.display {
+  display: flex;
+}
 @media screen and (max-width: 1264px) {
   .filter {
     width: 105px;
@@ -35,6 +39,11 @@
   .filter {
     width: 200px;
     font-size: 18px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .display {
+    display: none;
   }
 }
 hr {
