@@ -1,4 +1,7 @@
 # test-market
+Desctop only
+
+Demo:https://lwaddlesl.github.io/test-market/
 
 ## Build Setup
 
