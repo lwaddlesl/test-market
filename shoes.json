@@ -1,0 +1,199 @@
+{
+    "sneakers": [
+        {
+            "id": 0,
+            "name": "Yeezy Boost 350 V2 Ash Pearl",
+            "price": 13566,
+            "img_name": "1",
+            "special": {
+                "new": "true",
+                "recomend": "true",
+                "fast_delivery": "false"
+            }
+        },
+        {
+            "id": 1,
+            "name": "Yeezy Boost 350 V2 Ash Pearl",
+            "price": 7323,
+            "img_name": "2",
+            "special": {
+                "new": "false",
+                "recomend": "false",
+                "fast_delivery": "true"
+            }
+        },
+        {
+            "id": 2,
+            "name": "Nike AJ I 1 Retro High 'Tie Dye'",
+            "price": 22420,
+            "img_name": "3",
+            "special": {
+                "new": "false",
+                "recomend": "true",
+                "fast_delivery": "false"
+            }
+        },
+        {
+            "id": 3,
+            "name": "Nike Off White Air VaporMax Flyknit White",
+            "price": 13566,
+            "img_name": "4"
+        },
+        {
+            "id": 4,
+            "name": "SE Arctic Punch (2021)",
+            "price": 17550,
+            "img_name": "5",
+            "special": {
+                "new": "false",
+                "recomend": "true",
+                "fast_delivery": "false"
+            }
+        },
+        {
+            "id": 5,
+            "name": "Yeezy Boost 350 V2 Ash Pearl",
+            "price": 7323,
+            "img_name": "6",
+            "special": {
+                "new": "true",
+                "recomend": "false",
+                "fast_delivery": "false"
+            }
+        },
+        {
+            "id": 6,
+            "name": "Nike AJ I 1 Retro High 'Tie Dye'",
+            "price": 22420,
+            "img_name": "7",
+            "special": {
+                "new": "false",
+                "recomend": "false",
+                "fast_delivery": "true"
+            }
+        },
+        {
+            "id": 7,
+            "name": "Nike Off White Air VaporMax Flyknit White",
+            "price": 13566,
+            "img_name": "8"
+        },
+        {
+            "id": 8,
+            "name": "Yeezy Boost 350 V2 Ash Pearl",
+            "price": 13566,
+            "img_name": "1",
+            "special": {
+                "new": "true",
+                "recomend": "true",
+                "fast_delivery": "false"
+            }
+        },
+        {
+            "id": 9,
+            "name": "Yeezy Boost 350 V2 Ash Pearl",
+            "price": 7323,
+            "img_name": "2",
+            "special": {
+                "new": "false",
+                "recomend": "false",
+                "fast_delivery": "true"
+            }
+        },
+        {
+            "id": 10,
+            "name": "Nike AJ I 1 Retro High 'Tie Dye'",
+            "price": 22420,
+            "img_name": "3",
+            "special": {
+                "new": "false",
+                "recomend": "true",
+                "fast_delivery": "false"
+            }
+        },
+        {
+            "id": 11,
+            "name": "Nike Off White Air VaporMax Flyknit White",
+            "price": 13566,
+            "img_name": "4"
+        },
+        {
+            "id": 12,
+            "name": "SE Arctic Punch (2021)",
+            "price": 17550,
+            "img_name": "5",
+            "special": {
+                "new": "false",
+                "recomend": "true",
+                "fast_delivery": "false"
+            }
+        },
+        {
+            "id": 13,
+            "name": "Yeezy Boost 350 V2 Ash Pearl",
+            "price": 7323,
+            "img_name": "6",
+            "special": {
+                "new": "true",
+                "recomend": "false",
+                "fast_delivery": "false"
+            }
+        },
+        {
+            "id": 14,
+            "name": "Nike AJ I 1 Retro High 'Tie Dye'",
+            "price": 22420,
+            "img_name": "7",
+            "special": {
+                "new": "false",
+                "recomend": "false",
+                "fast_delivery": "true"
+            }
+        },
+        {
+            "id": 15,
+            "name": "Nike Off White Air VaporMax Flyknit White",
+            "price": 13566,
+            "img_name": "8"
+        },
+        {
+            "id": 16,
+            "name": "Yeezy Boost 350 V2 Ash Pearl",
+            "price": 13566,
+            "img_name": "1",
+            "special": {
+                "new": "true",
+                "recomend": "true",
+                "fast_delivery": "false"
+            }
+        },
+        {
+            "id": 17,
+            "name": "Yeezy Boost 350 V2 Ash Pearl",
+            "price": 7323,
+            "img_name": "2",
+            "special": {
+                "new": "false",
+                "recomend": "false",
+                "fast_delivery": "true"
+            }
+        },
+        {
+            "id": 18,
+            "name": "Nike AJ I 1 Retro High 'Tie Dye'",
+            "price": 22420,
+            "img_name": "3",
+            "special": {
+                "new": "false",
+                "recomend": "true",
+                "fast_delivery": "false"
+            }
+        },
+        {
+            "id": 19,
+            "name": "Nike Off White Air VaporMax Flyknit White",
+            "price": 13566,
+            "img_name": "4"
+        }
+    ]
+}
